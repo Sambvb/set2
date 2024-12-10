@@ -1,1 +1,226 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithmic Problem-Solving Techniques</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f0f4f8;
+            line-height: 1.6;
+            color: #333;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            background-color: #a5c9e6;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5rem;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        section {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            padding: 25px;
+            transition: transform 0.3s ease;
+        }
+
+        section:hover {
+            transform: translateY(-5px);
+        }
+
+        section h2 {
+            color: #3498db;
+            border-bottom: 3px solid #a5c9e6;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        article {
+            background-color: #f9f5f0;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+            transition: background-color 0.3s ease;
+        }
+
+        article:hover {
+            background-color: #f1f1f1;
+        }
+
+        h3 {
+            color: #2980b9;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        li:before {
+            content: '•';
+            color: #3498db;
+            position: absolute;
+            left: 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            margin-top: 15px;
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        thead {
+            background-color: #a5c9e6;
+            color: #2c3e50;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        strong {
+            color: #2c3e50;
+        }
+
+        @media (max-width: 768px) {
+            section {
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            table {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+            </header>
+    <main>
+        
+
+
+
+    <!-- Section 1: How do you determine the most efficient approach when solving a complex problem? -->
+    <section id="problem-solving-approach">
+        <h2>1) How do you determine the most efficient approach when solving a complex problem?</h2>
+        <ul>
+            <li><strong>Understanding the Problem:</strong> Figuring out exactly what the problem is and what’s causing it. Breaking it down into smaller, more manageable pieces.</li>
+            <li><strong>Gathering Information:</strong> Researching possible solutions and checking what limitations exist, like time or resources.</li>
+            <li><strong>Brainstorming Solutions:</strong> Coming up with different ways to tackle the problem and considering the pros and cons of each.</li>
+            <li><strong>Choosing the Best Solution:</strong> Picking the most effective solution by weighing options with tools like cost-benefit analysis.</li>
+            <li><strong>Testing and Improving:</strong> Trying out the solution on a small scale, then adjusting it based on what you learn.</li>
+            <li><strong>Optimizing:</strong> Finding ways to make the solution more efficient, while saving time and resources.</li>
+            <li><strong>Putting It into Action:</strong> Implementing the solution, keeping an eye on how it’s going, and making any necessary adjustments.</li>
+        </ul>
+    </section>
+
+    <!-- Section 2: Reflect on a situation where you need to balance multiple conflicting constraints in a design. -->
+    <section id="balancing-constraints">
+        <h2>2) Reflect on a situation where you need to balance multiple conflicting constraints in a design. What approach did you take?</h2>
+        <ul>
+            <li><strong>Identifying and Prioritizing Constraints:</strong> I will list factors like cost, time, performance, and user experience, then figure out which ones will be non-negotiable and which can be flexible.</li>
+            <li><strong>Exploring Solutions:</strong> I will consider different design options, weigh their impact on cost, time, and performance, and test prototypes to see what works best.</li>
+            <li><strong>Collaborating and Optimizing:</strong> I will gather feedback from key stakeholders, make adjustments based on their input, and finalize a solution that balances all the important constraints.</li>
+        </ul>
+    </section>
+
+  <!-- Section 3: What criteria will you use to evaluate the effectiveness of a solution? -->
+<section id="evaluating-solution">
+    <h2>3) What criteria will you use to evaluate the effectiveness of a solution?</h2>
+    <ul>
+        <li><strong>Goal Achievement:</strong> I will check if the solution solves the problem or meets the main goal.</li>
+        <li><strong>Feasibility and Efficiency:</strong> I will see if the solution can be done within the given time, budget, and resources, and if it makes good use of them.</li>
+        <li><strong>Scalability:</strong> I will check if the solution can grow or change as needs change over time.</li>
+        <li><strong>User Satisfaction:</strong> I will see if users and stakeholders are happy with the results and the overall impact.</li>
+        <li><strong>Risk and Sustainability:</strong> I will consider any risks and check if the solution can be maintained over time without causing harm.</li>
+    </ul>
+</section>
+
+
+    <!-- Section 4: How can you adapt an existing solution to address a new or unforeseen challenge? -->
+    <section id="adapting-solution">
+        <h2>4) How can you adapt an existing solution to address a new or unforeseen challenge?</h2>
+        <ul>
+            <li><strong>Understand the Challenge:</strong> I will assess how the new challenge impacts the current solution and identify any gaps.</li>
+            <li><strong>Analyze the Existing Solution:</strong> I will review the strengths and weaknesses of the current solution and its flexibility.</li>
+            <li><strong>Brainstorm Adjustments:</strong> I will consider modifications or improvements to meet the new challenge.</li>
+            <li><strong>Prototype and Test:</strong> I will test small adjustments to see if they work in real-world conditions.</li>
+            <li><strong>Implement and Monitor:</strong> I will implement the adapted solution, gather feedback, and make adjustments as needed.</li>
+        </ul>
+    </section>
+
+  </html><!-- Section 5: What strategies will you use to identify patterns or structures in complex datasets or problems? -->
+<section id="identifying-patterns">
+    <h2>5) What strategies will you use to identify patterns or structures in complex datasets or problems?</h2>
+    <ul>
+        <li><strong>Exploring the Data:</strong> I will start by visualizing the data with charts or graphs to spot trends and understand basic statistics like averages.</li>
+        <li><strong>Breaking it Down:</strong> I will divide the data into smaller, logical groups to see if patterns emerge within each part.</li>
+        <li><strong>Looking for Relationships:</strong> I will check if certain data points are connected by comparing them using basic methods like scatter plots.</li>
+        <li><strong>Grouping Similar Data:</strong> I will group similar data together to reveal hidden patterns that might not be obvious at first.</li>
+        <li><strong>Simplifying and Testing:</strong> I will reduce unnecessary details to make the data easier to analyze and test different approaches to find key patterns.</li>
+    </ul>
+</section>
+
+
+
+
+
+        
+          </main>
+</body>
+</html>
